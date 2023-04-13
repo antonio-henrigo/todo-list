@@ -1,0 +1,179 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border-radius: 5px;
+  border: solid 1px #f3f3f3;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.055);
+  margin: 10px 20px 10px 20px;
+  padding: 14px;
+}
+
+li:hover{
+  background: #f7f7f7;;
+}
+
+input {
+  border: solid 1px #d8d7d7;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 5px;
+  padding: 15px 15px 15px 15px;
+  width: 325px;
+}
+
+img {
+  height: 120px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.text-list {
+  color: #5CE1E6;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.title{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subtitle{
+  font-size: 14px;
+}
+
+.container{
+  border: solid 1px #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  height: 20%;
+  margin: 25px;
+  padding: 20px 0px 30px 0px;
+  width: 400px;
+}
+
+.id-list {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.description-task {
+  font-size: 16px;
+  margin-right: 5px;
+  width: 220px;
+}
+
+.align-itens {
+  align-self: center;
+}
+
+.round-button {
+  color: white;
+  border-radius: 50%;
+  border: none;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #5CE1E6;;
+}
+
+.add-button-green {
+  background-color: #45e99c;;
+}
+
+.text-through {
+  text-decoration: line-through;
+}
+
+.remove-button {
+  background-color: #f07366;
+}
+
+.round-button i {
+  line-height: 25px;
+}
+
+.align{
+  justify-content: center;
+}
+
+.alert{
+  color: #f09f36;
+  font-size: 12px;
+  padding: 0px 10px 10px 10px;
+}
+
+.button-save{
+  background-color: #5CE1E6;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 15px 15px 15px 15px;
+  width: 355px;
+}
+
+/* Layout para telas maiores que 768 pixels */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Layout para telas menores que 768 pixels */
+@media screen and (max-width: 768px) {
+
+body{
+  overflow:auto;
+  overflow-y: scroll;
+}
+
+input {
+  border: solid 1px #d8d7d7;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 5px;
+  padding: 15px 15px 15px 15px;
+  width: 290px;
+}
+
+.container {
+  border: solid 1px #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  height: 20%;
+  margin: 25px;
+  padding: 20px 0px 30px 0px;
+  width: 345px;
+  overflow:auto;
+  overflow-y: scroll;
+}
+
+.buttons{
+  width: 85px;
+}
+
+.button-save{
+  background-color: #5CE1E6;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 15px 15px 15px 15px;
+  width: 320px;
+}
+}
