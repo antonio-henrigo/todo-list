@@ -136,7 +136,7 @@ img {
 /* Layout para telas menores que 768 pixels */
 @media screen and (max-width: 768px) {
 
-body{
+body {
   overflow:auto;
   overflow-y: scroll;
 }
@@ -148,6 +148,10 @@ input {
   margin: 5px;
   padding: 15px 15px 15px 15px;
   width: 290px;
+}
+
+li {
+  padding: 10px;
 }
 
 .container {
