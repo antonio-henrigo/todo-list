@@ -180,4 +180,17 @@ li {
   padding: 15px 15px 15px 15px;
   width: 320px;
 }
+
+.round-button{
+  margin: 2px;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+}
+
+.round-button i {
+  line-height: 20px;
+  margin-left: -1px;
+}
+
 }
